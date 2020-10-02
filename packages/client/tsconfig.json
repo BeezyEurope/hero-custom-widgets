@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "lib": ["dom", "esnext"],
+    "target": "es5",
+    "module": "CommonJS",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "allowJs": true,
+    "types": ["react", "jest"],
+    "resolveJsonModule": true
+  },
+  "exclude": ["./src/**/*.stories.@(js|jsx|ts|tsx)"],
+  "include": [
+    "./src/**/*"
+  ]
+}

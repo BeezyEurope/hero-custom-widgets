@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "custom-widgets",
+  "scripts": {
+    "build-server": "yarn workspace custom-widgets-server build",
+    "run-server": "yarn workspace custom-widgets-server start",
+    "build-client": "yarn workspace custom-widgets-client build",
+    "run-client": "yarn workspace custom-widgets-client dev",
+    "build": "yarn run build-server && yarn run build-front",
+    "test": "yarn workspace custom-widgets-client jest",
+    "storybook": "yarn workspace custom-widgets-client start-storybook -p 6006",
+    "build-storybook": "yarn workspace custom-widgets-client build-storybook"
+  },
+  "workspaces": ["packages/client", "packages/server"]
+}
