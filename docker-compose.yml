@@ -1,0 +1,8 @@
+version: "3.3"
+services:
+  custom-widgets:
+    build:
+      context: .
+    env_file: ./packages/server/.env
+    ports: 
+        - 4000:4000
