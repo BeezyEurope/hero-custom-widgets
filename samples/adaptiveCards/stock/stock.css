@@ -81,7 +81,7 @@ screen and (min-height: 20.625rem) and (max-height: 20.75rem) {
     bottom: -.25rem;
   }
 }
-
+/* Narrow block */
 @media screen and (min-height: 20.625rem) and (max-height: 20.75rem) {
   .ac-adaptiveCard > .ac-container:nth-child(5) .ac-columnSet {
     flex-wrap: wrap;

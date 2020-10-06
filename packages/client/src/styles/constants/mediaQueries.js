@@ -27,7 +27,6 @@ const narrowBlockDesktop = `screen and (min-height: ${rem(332)}) and (min-width:
 const wideBlockDesktop = `screen and (min-width: ${rem(405)}) and (min-height: ${rem(217)}) and (max-height: ${rem(219)})`;
 
 // Narrow block Tablet
-/** Range of withs for narrowBlockTablet: (min-width: ${rem(240)}) and (max-width: ${rem(303)}) */
 const narrowBlockTablet = `screen and (min-width: ${rem(240)}) and (max-width: ${rem(303)}) and (max-height: ${rem(332)})`;
 
 // Wide block Tablet
