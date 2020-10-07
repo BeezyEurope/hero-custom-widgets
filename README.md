@@ -62,6 +62,13 @@ To execute all tests execute this command in root folder:
 
 ``` yarn run test ```
 
+## Recommended styles to improve the display of iframes for custom widgets:
+~~~~
+    <style>
+        iframe {border:0; height: 100%; width: 100%}
+        body {margin: 0}
+    </style>
+~~~~
 
 
 
