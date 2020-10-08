@@ -70,7 +70,15 @@ To execute all tests execute this command in root folder:
     </style>
 ~~~~
 
+## Code for the Beezy Hero Social Widget
 
+~~~~
+    <style>
+        iframe {border:0; height: 100%; width: 100%}
+        body {margin: 0}
+    </style>
+    <iframe src="https://widgets.beezy.net/social?user='followrbeezy'" />
+~~~~
 
 ## Code for the Beezy Stock Adaptive Card
 In the folder [samples/adaptiveCards/stock](samples/adaptiveCards/stock) you will find the json and CSS files for the Beezy Stock Adaptive Card:
