@@ -77,7 +77,7 @@ To execute all tests execute this command in root folder:
         iframe {border:0; height: 100%; width: 100%}
         body {margin: 0}
     </style>
-    <iframe src="https://widgets.beezy.net/social?user='followrbeezy'" />
+    <iframe src="https://widgets.beezy.net/social?user='followbeezy'" />
 ~~~~
 
 ## Code for the Beezy Stock Adaptive Card
