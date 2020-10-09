@@ -88,7 +88,7 @@ In the folder [samples/adaptiveCards/stock](samples/adaptiveCards/stock) you wil
 * Extra CSS: [stock.css](samples/adaptiveCards/stock/stock.css)
 
 ## URLs for testing source data in Stock Adaptive Card
-Use these files to retreave data for the Stock adaptive card
+Use these files to retrieve data for the Stock adaptive card
 
 * Increasing value: https://firebasestorage.googleapis.com/v0/b/bright-torus-238508.appspot.com/o/example.json?alt=media&token=8e390c6f-83b9-4bf8-ac49-c75082ccfdbf
 * Decreasing value: https://firebasestorage.googleapis.com/v0/b/bright-torus-238508.appspot.com/o/stock_baja.json?alt=media&token=fac9d59d-0163-4471-882a-6329e9c0dae8
